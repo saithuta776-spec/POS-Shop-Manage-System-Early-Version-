@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@layer utilities {
+  /* Hide scrollbar for clean UI */
+  .scrollbar-none::-webkit-scrollbar {
+    display: none;
+  }
+  .scrollbar-none {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  #printable-receipt,
+  #printable-receipt * {
+    visibility: visible;
+  }
+  #printable-receipt {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100% !important;
+    max-width: 80mm !important;
+    margin: 0 auto !important;
+    padding: 10px !important;
+    background: white !important;
+    color: black !important;
+    box-shadow: none !important;
+  }
+  @page {
+    margin: 5mm;
+    size: auto;
+  }
+}
+

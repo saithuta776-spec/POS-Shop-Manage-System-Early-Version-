@@ -1,0 +1,7 @@
+{
+  "name": "ShopFlow - Inventory & POS Voucher Generator",
+  "description": "Local shop inventory and sales voucher POS system with Notion-style daily log archive, real-time receipt printing, and stock management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
