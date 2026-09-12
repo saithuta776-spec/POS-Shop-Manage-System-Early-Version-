@@ -305,4 +305,4 @@ The application was developed partly to experiment with AI-assisted programming 
 
 Computing Student | Web Development & Technology
 
-GitHub: https://github.com/saithuta776-spec
+GitHub: [saithuta776-spec](https://github.com/saithuta776-spec)
